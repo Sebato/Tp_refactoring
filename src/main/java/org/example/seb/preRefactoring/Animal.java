@@ -6,7 +6,7 @@ public class Animal {
     }
 
     public static void nomNourriture(Nourriture n){
-        System.out.println(n);
+        System.out.println(n.getNom());
     }
 
     public static void couleurNourriture(Nourriture a) {
