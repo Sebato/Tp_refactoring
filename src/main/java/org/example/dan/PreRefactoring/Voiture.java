@@ -1,4 +1,4 @@
-package org.example.dan.prerefactor;
+package org.example.dan.PreRefactoring;
 
 public class Voiture {
     private String marque;
@@ -21,24 +21,48 @@ public class Voiture {
         return marque;
     }
 
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
+
     public String getModele() {
         return modele;
     }
 
-    public String getMoteur_type() {
+    public void setModele(String modele) {
+        this.modele = modele;
+    }
+
+    public String getMoteurType() {
         return moteurType;
     }
 
-    public String getMoteur_cylindree() {
+    public void setMoteurType(String moteurType) {
+        this.moteurType = moteurType;
+    }
+
+    public String getMoteurCylindree() {
         return moteurCylindree;
     }
 
-    public String getMoteur_puissance() {
+    public void setMoteurCylindree(String moteurCylindree) {
+        this.moteurCylindree = moteurCylindree;
+    }
+
+    public String getMoteurPuissance() {
         return moteurPuissance;
     }
 
-    public String getMoteur_carburant() {
+    public void setMoteurPuissance(String moteurPuissance) {
+        this.moteurPuissance = moteurPuissance;
+    }
+
+    public String getMoteurCarburant() {
         return moteurCarburant;
+    }
+
+    public void setMoteurCarburant(String moteurCarburant) {
+        this.moteurCarburant = moteurCarburant;
     }
 
     public String getMoteurInfo() {
