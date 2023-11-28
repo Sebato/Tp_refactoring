@@ -1,4 +1,4 @@
-package org.example.dan.PostRefactoring;
+package org.example.extractClass.postRefactoring;
 
 public class Voiture {
     private final Moteur moteur = new Moteur();

@@ -1,12 +1,36 @@
-package org.example.dan.PostRefactoring;
+package org.example.extractClass.preRefactoring;
 
-public class Moteur {
+public class Voiture {
+    private String marque;
+    private String modele;
     private String moteurType;
     private String moteurCylindree;
     private String moteurPuissance;
     private String moteurCarburant;
 
-    public Moteur() {
+    public Voiture(String marque, String modele, String moteur_type, String moteur_cylindree, String moteur_puissance, String moteur_carburant) {
+        this.marque = marque;
+        this.modele = modele;
+        this.moteurType = moteur_type;
+        this.moteurCylindree = moteur_cylindree;
+        this.moteurPuissance = moteur_puissance;
+        this.moteurCarburant = moteur_carburant;
+    }
+
+    public String getMarque() {
+        return marque;
+    }
+
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
+
+    public String getModele() {
+        return modele;
+    }
+
+    public void setModele(String modele) {
+        this.modele = modele;
     }
 
     public String getMoteurType() {
