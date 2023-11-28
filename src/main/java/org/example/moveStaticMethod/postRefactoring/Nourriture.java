@@ -1,4 +1,4 @@
-package org.example.seb.preRefactoring;
+package org.example.moveStaticMethod.postRefactoring;
 
 public class Nourriture {
     private String nom;
@@ -7,6 +7,14 @@ public class Nourriture {
 public Nourriture(String nom, String couleur) {
         this.nom = nom;
         this.couleur = couleur;
+    }
+
+    public void couleurNourriture() {
+        System.out.println(getCouleur());
+    }
+
+    public void nomNourriture(){
+        System.out.println(getNom());
     }
 
     public String getCouleur() {

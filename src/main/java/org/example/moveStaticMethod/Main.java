@@ -1,4 +1,4 @@
-package org.example.seb;
+package org.example.moveStaticMethod;
 
 //changer imports pour tester refactotrings
 
@@ -7,8 +7,7 @@ package org.example.seb;
 //import org.example.seb.preRefactoring.Nourriture;
 
 //Post Refactoring
-import org.example.seb.postRefactoring.Animal;
-import org.example.seb.postRefactoring.Nourriture;
+import org.example.moveStaticMethod.postRefactoring.Nourriture;
 
 public class Main {
     public static void main(String[] args) {

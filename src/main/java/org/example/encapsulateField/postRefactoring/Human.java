@@ -1,4 +1,4 @@
-package org.example.tom.postRefactoring;
+package org.example.encapsulateField.postRefactoring;
 
 public class Human {
     private String sex;

@@ -1,11 +1,11 @@
-package org.example.tom;
+package org.example.encapsulateField;
 
 public class Main {
     public static void main(String[] args) {
         //Pre-Refactoring
         System.out.println("Pre-Refactoring test:");
 
-        org.example.tom.PreRefactoring.Human preRefHuman = new org.example.tom.PreRefactoring.Human("Homme", "Tom", "Simula",1.70, 22);
+        org.example.encapsulateField.preRefactoring.Human preRefHuman = new org.example.encapsulateField.preRefactoring.Human("Homme", "Tom", "Simula",1.70, 22);
 
         // Accessing attributes
         System.out.println("\tValue before update:");
@@ -35,7 +35,7 @@ public class Main {
         //after Refactoring :
         System.out.println("Post-Refactoring test:");
 
-        org.example.tom.postRefactoring.Human postRefHuman = new org.example.tom.postRefactoring.Human("Homme", "Tom", "Simula",1.70, 22);
+        org.example.encapsulateField.postRefactoring.Human postRefHuman = new org.example.encapsulateField.postRefactoring.Human("Homme", "Tom", "Simula",1.70, 22);
         // Accessing attributes
         System.out.println("\tValue before update:");
         System.out.println("\t\tSex: " + postRefHuman.getSex());

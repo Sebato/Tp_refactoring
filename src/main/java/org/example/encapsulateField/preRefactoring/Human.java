@@ -1,4 +1,4 @@
-package org.example.tom.PreRefactoring;
+package org.example.encapsulateField.preRefactoring;
 
 public class Human {
     public String sex;
