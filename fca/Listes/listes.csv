@@ -1,0 +1,5 @@
+Classes,add,isEmpty,get,peek,poll,staticLT,comparator
+ListeTableau,1,1,1,0,0,1,0
+ListeChainee,1,1,1,1,1,0,0
+QueueDoubleEntree,1,1,0,1,1,0,0
+QueueAvecPriorite,1,1,0,1,1,0,1

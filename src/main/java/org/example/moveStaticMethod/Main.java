@@ -15,7 +15,9 @@ public class Main {
         Nourriture a = new Nourriture("pomme", "rouge");
         Nourriture b = new Nourriture("steak", "bleu");
 
+        //Animal.nomNourriture(a);
         a.nomNourriture();
+        //Animal.nomNourriture(b);
         b.nomNourriture();
 
         a.couleurNourriture();
